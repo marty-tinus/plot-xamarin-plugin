@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+   <metadata minClientVersion="2.8.1">
+       <id>PlotProjects.Plugin</id>
+       <version>$version$</version>
+       <title>Geofencing by Plot Projects</title>
+       <authors>Plot Projects</authors>
+       <owners>Plot Projects</owners>
+       <licenseUrl>https://github.com/Plotprojects/Xamarin.Plugins/blob/master/LICENSE.md</licenseUrl>
+       <projectUrl>https://www.plotprojects.com</projectUrl>
+       <iconUrl>http://www.plotprojects.com/wp-content/uploads/2016/02/plotprojects_512x512.png</iconUrl>
+       <requireLicenseAcceptance>false</requireLicenseAcceptance>
+       <description>
+         Xamarin plugin for Plot Projects. This library provides access to our geofence notification service.
+       </description>
+     <releaseNotes>
+       First release
+     </releaseNotes>
+       <summary>
+         Xamarin plugin for Plot Projects. This library provides access to our geofence notification service.
+       </summary>
+       <tags>xamarin, android, ios, notifications, geofence, geofencing</tags>
+   </metadata>
+   <files>
+     <!--Core-->
+     <file src="PlotProjects.Plugin/bin/Release/PlotProjects.Plugin.Abstractions.dll" target="lib\portable-net45+sl50+win+wp80+MonoTouch10+MonoAndroid10+xamarinmac20+xamarinios10\PlotProjects.Plugin.Abstractions.dll" />
+     <file src="PlotProjects.Plugin/bin/Release/PlotProjects.Plugin.Abstractions.xml" target="lib\portable-net45+sl50+win+wp80+MonoTouch10+MonoAndroid10+xamarinmac20+xamarinios10\PlotProjects.Plugin.Abstractions.xml" />
+     <file src="PlotProjects.Plugin/bin/Release/PlotProjects.Plugin.dll" target="lib\portable-net45+sl50+win+wp80+MonoTouch10+MonoAndroid10+xamarinmac20+xamarinios10\PlotProjects.Plugin.dll" />
+     <file src="PlotProjects.Plugin/bin/Release/PlotProjects.Plugin.xml" target="lib\portable-net45+sl50+win+wp80+MonoTouch10+MonoAndroid10+xamarinmac20+xamarinios10\PlotProjects.Plugin.xml" />
+     
+     
+     <!--Xamarin.Android-->
+     <file src="PlotProjects.Plugin.Android/bin/Release/PlotProjects.Plugin.Abstractions.dll" target="lib\MonoAndroid10\PlotProjects.Plugin.Abstractions.dll" />
+     <file src="PlotProjects.Plugin.Android/bin/Release/PlotProjects.Plugin.Abstractions.xml" target="lib\MonoAndroid10\PlotProjects.Plugin.Abstractions.xml" />
+     <file src="PlotProjects.Plugin.Android/bin/Release/PlotProjects.Plugin.dll" target="lib\MonoAndroid10\PlotProjects.Plugin.dll" />
+     <file src="PlotProjects.Plugin.Android/bin/Release/PlotProjects.Plugin.xml" target="lib\MonoAndroid10\PlotProjects.Plugin.xml" />
+     <file src="PlotProjects.Plugin.Android.Beacon/bin/Release/PlotProjects.Plugin.Android.Beacon.dll" target="lib\MonoAndroid10\PlotProjects.Plugin.Android.Beacon.dll" />
+
+     <!--Xamarin.iOS Unified-->
+     <file src="PlotProjects.Plugin.iOS/bin/Release/PlotProjects.Plugin.Abstractions.dll" target="lib\Xamarin.iOS10\PlotProjects.Plugin.Abstractions.dll" />
+     <file src="PlotProjects.Plugin.iOS/bin/Release/PlotProjects.Plugin.Abstractions.xml" target="lib\Xamarin.iOS10\PlotProjects.Plugin.Abstractions.xml" />
+     <file src="PlotProjects.Plugin.iOS/bin/Release/PlotProjects.Plugin.dll" target="lib\Xamarin.iOS10\PlotProjects.Plugin.dll" />
+     <file src="PlotProjects.Plugin.iOS/bin/Release/PlotProjects.Plugin.xml" target="lib\Xamarin.iOS10\PlotProjects.Plugin.xml" />
+   </files>
+</package>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ItemType>PackagingProject</ItemType>
+    <ProjectGuid>{A65E2385-574B-4A62-A6FA-F1E764E38B40}</ProjectGuid>
+    <Packages>
+      <Packages>
+        <Package name="Binaries">
+          <Builder targetFile="build\PlotProjects.tar.gz" platform="Linux" configuration="Release" ctype="BinariesZipPackageBuilder">
+            <ChildEntries>
+              <SolutionItemReference path="PlotProjects.Plugin\PlotProjects.Plugin.csproj" />
+              <SolutionItemReference path="PlotProjects.Plugin.Abstractions\PlotProjects.Plugin.Abstractions.csproj" />
+              <SolutionItemReference path="PlotProjects.Plugin.Android\PlotProjects.Plugin.Android.csproj" />
+              <SolutionItemReference path="PlotProjects.Plugin.iOS\PlotProjects.Plugin.iOS.csproj" />
+            </ChildEntries>
+            <RootEntry path="PlotProjects.sln" id=":root:" />
+          </Builder>
+        </Package>
+      </Packages>
+    </Packages>
+    <ReleaseVersion>1.14.0</ReleaseVersion>
+  </PropertyGroup>
+</Project>

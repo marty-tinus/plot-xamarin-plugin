@@ -1,0 +1,9 @@
+build/
+*.userprefs
+bin/
+obj/
+*.nupkg
+.gradle/
+PlotProjectsExample-Android/packages/
+PlotProjectsExample-iOS/packages/
+
