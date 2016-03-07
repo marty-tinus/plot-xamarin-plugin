@@ -6,4 +6,5 @@ obj/
 .gradle/
 PlotProjectsExample-Android/packages/
 PlotProjectsExample-iOS/packages/
-
+*.xam
+packages/

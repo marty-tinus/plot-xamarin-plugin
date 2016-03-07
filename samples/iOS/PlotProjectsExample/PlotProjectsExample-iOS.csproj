@@ -79,6 +79,12 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
+    <Reference Include="PlotProjects.Plugin.Abstractions">
+      <HintPath>..\packages\PlotProjects.Plugin.1.14.0\lib\Xamarin.iOS10\PlotProjects.Plugin.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="PlotProjects.Plugin">
+      <HintPath>..\packages\PlotProjects.Plugin.1.14.0\lib\Xamarin.iOS10\PlotProjects.Plugin.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
