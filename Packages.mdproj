@@ -6,18 +6,19 @@
     <Packages>
       <Packages>
         <Package name="Binaries">
-          <Builder targetFile="build\PlotProjects.tar.gz" platform="Linux" configuration="Release" ctype="BinariesZipPackageBuilder">
+          <Builder targetFile="PlotProjects.tar.gz" platform="Linux" configuration="Debug" ctype="BinariesZipPackageBuilder">
             <ChildEntries>
               <SolutionItemReference path="PlotProjects.Plugin\PlotProjects.Plugin.csproj" />
               <SolutionItemReference path="PlotProjects.Plugin.Abstractions\PlotProjects.Plugin.Abstractions.csproj" />
               <SolutionItemReference path="PlotProjects.Plugin.Android\PlotProjects.Plugin.Android.csproj" />
               <SolutionItemReference path="PlotProjects.Plugin.iOS\PlotProjects.Plugin.iOS.csproj" />
+              <SolutionItemReference path="PlotProjects.Plugin.Android.Beacon\PlotProjects.Plugin.Android.Beacon.csproj" />
             </ChildEntries>
             <RootEntry path="PlotProjects.sln" id=":root:" />
           </Builder>
         </Package>
       </Packages>
     </Packages>
-    <ReleaseVersion>1.14.0</ReleaseVersion>
+    <ReleaseVersion>1.14.1</ReleaseVersion>
   </PropertyGroup>
 </Project>

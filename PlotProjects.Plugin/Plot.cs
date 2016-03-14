@@ -81,7 +81,14 @@ namespace PlotProjects.Plugin
 		{
 			PlotImplementation instance = (PlotImplementation) GetInstance ();
 			instance.Release = !debug;
-			instance.InitWithLaunchOptions (launchOptions);
+
+			if (launchOptions == null) {
+				launchOptions = new Foundation.NSDictionary ();
+			}
+
+			Foundation.NSMutableDictionary extendedLaunchOptions = new Foundation.NSMutableDictionary (launchOptions);
+			extendedLaunchOptions.Add (new Foundation.NSString("plot-xamarin-version"), new Foundation.NSString(Mono.Runtime.GetDisplayName ()));
+			instance.InitWithLaunchOptions (extendedLaunchOptions);
 			return instance;
 		}
 

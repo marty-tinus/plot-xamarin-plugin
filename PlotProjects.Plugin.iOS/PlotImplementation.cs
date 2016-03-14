@@ -11,9 +11,6 @@ namespace PlotProjects.Plugin
 
 		public void InitWithLaunchOptions (Foundation.NSDictionary launchOptions)
 		{
-			if (launchOptions == null) {
-				launchOptions = new Foundation.NSDictionary ();
-			}
 			if (Release) {
 				PlotRelease.InitializeWithLaunchOptionsAndDelegate (launchOptions, null);
 			} else {
