@@ -3,7 +3,7 @@
 icons: 
   - plotprojects_128x128.png
   - plotprojects_512x512.png
-version: 1.14.0
+version: 1.15.3
 details: Details.md
 getting-started: GettingStarted.md
 samples: 
@@ -17,6 +17,6 @@ name: Plot Projects Geofencing Notifications
 publisher: Floating Market B.V.
 is_shell: true
 packages:
-  ios-unified: PlotProjects.Plugin, Version=1.14.0
-  android: PlotProjects.Plugin, Version=1.14.0
+  ios-unified: PlotProjects.Plugin, Version=1.15.3
+  android: PlotProjects.Plugin, Version=1.15.3
 ...

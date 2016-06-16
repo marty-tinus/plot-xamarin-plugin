@@ -6,7 +6,7 @@
     <Packages>
       <Packages>
         <Package name="Binaries">
-          <Builder targetFile="PlotProjects.tar.gz" platform="Linux" configuration="Debug" ctype="BinariesZipPackageBuilder">
+          <Builder targetFile="build\PlotProjects.tar.gz" platform="Linux" configuration="Release" ctype="BinariesZipPackageBuilder">
             <ChildEntries>
               <SolutionItemReference path="PlotProjects.Plugin\PlotProjects.Plugin.csproj" />
               <SolutionItemReference path="PlotProjects.Plugin.Abstractions\PlotProjects.Plugin.Abstractions.csproj" />

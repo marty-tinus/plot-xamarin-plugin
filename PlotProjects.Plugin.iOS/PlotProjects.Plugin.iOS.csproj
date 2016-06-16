@@ -9,7 +9,7 @@
     <RootNamespace>PlotProjects.Plugin</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>PlotProjects.Plugin</AssemblyName>
-    <ReleaseVersion>1.14.1</ReleaseVersion>
+    <ReleaseVersion>1.15.3</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -47,8 +47,8 @@
       <Link>Plot.cs</Link>
     </Compile>
     <Compile Include="PlotImplementation.cs" />
-    <Compile Include="libPlot-v1_14_1_beta.linkwith.cs">
-      <DependentUpon>libPlot-v1_14_1_beta.a</DependentUpon>
+    <Compile Include="libPlot-v1_15_3_beta.linkwith.cs">
+      <DependentUpon>libPlot-v1_15_3_beta.a</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -62,6 +62,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ObjcBindingNativeLibrary Include="libPlot-v1_14_1_beta.a" />
+    <ObjcBindingNativeLibrary Include="libPlot-v1_15_3_beta.a" />
   </ItemGroup>
 </Project>

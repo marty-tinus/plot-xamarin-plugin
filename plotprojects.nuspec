@@ -8,13 +8,13 @@
        <owners>Plot Projects</owners>
        <licenseUrl>https://github.com/Plotprojects/plot-xamarin-plugin#license</licenseUrl>
        <projectUrl>https://www.plotprojects.com</projectUrl>
-       <iconUrl>http://www.plotprojects.com/wp-content/uploads/2016/02/plotprojects_512x512.png</iconUrl>
+       <iconUrl>https://www.plotprojects.com/wp-content/uploads/2016/06/plotprojects_512x512.png</iconUrl>
        <requireLicenseAcceptance>false</requireLicenseAcceptance>
        <description>
          Xamarin plugin for Plot Projects. This library provides access to our geofence notification service.
        </description>
      <releaseNotes>
-       First release
+       Updated Plot Projects libraries to latest version.
      </releaseNotes>
        <summary>
          With just a few easy steps you can start sending geofencing notifications now. Your users will receive a notification whenever they enter a geofence that you created in the Plot Dashboard and your app-usage, foot-traffic and conversion will rise.

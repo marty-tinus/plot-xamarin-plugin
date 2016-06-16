@@ -52,10 +52,10 @@
       <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.23.1.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
     </Reference>
     <Reference Include="PlotProjects.Plugin.Abstractions">
-      <HintPath>..\packages\PlotProjects.Plugin.1.14.0\lib\MonoAndroid10\PlotProjects.Plugin.Abstractions.dll</HintPath>
+      <HintPath>..\packages\PlotProjects.Plugin.1.15.3\lib\MonoAndroid10\PlotProjects.Plugin.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="PlotProjects.Plugin">
-      <HintPath>..\packages\PlotProjects.Plugin.1.14.0\lib\MonoAndroid10\PlotProjects.Plugin.dll</HintPath>
+      <HintPath>..\packages\PlotProjects.Plugin.1.15.3\lib\MonoAndroid10\PlotProjects.Plugin.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
