@@ -6,7 +6,7 @@ Add location based notifications to your Xamarin project easily.
 
 This plugins supports both IOS 6 or newer, and Android 2.3 or newer.
 
-Tested under Xamarin Studio 5.10. Because this library uses native bindings the Xamarin Starter Edition is *NOT* supported.
+Tested under Xamarin Studio 6.1.1.
 
 ### Integration and configuration ###
 
