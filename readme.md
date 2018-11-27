@@ -4,17 +4,17 @@ Add location based notifications to your Xamarin project easily.
 
 ### Supported platforms ###
 
-This plugins supports both IOS 6 or newer, and Android 2.3 or newer.
+This plugins supports both IOS 10 or newer, and Android 2.3 or newer.
 
 Tested under Xamarin Studio 6.1.1.
 
 ### Integration and configuration ###
 
-You can find the integration guide at our website: [http://www.plotprojects.com/xamarin-integration/](http://www.plotprojects.com/xamarin-integration/)
+You can find the integration guide at our website: [https://www.plotprojects.com/documentation/#xamarin-integration](https://www.plotprojects.com/documentation/#xamarin-integration)
 
 Additional settings are possible using the configuration file, an example is shown below. The publicToken and enableOnFirstRun fields are required, the notificationSmallIcon, notificationAccentColor and askPermissionAgainAfterDays options are Android only, the maxRegionsMonitored is an iOS only setting.
 
-Information about these settings can be found in our extensive documentation, in chapter 1.4: [http://www.plotprojects.com/documentation#ConfigurationFile](http://www.plotprojects.com/documentation#ConfigurationFile)
+Information about these settings can be found in our extensive documentation, in chapter 1.4: [https://www.plotprojects.com/documentation#ConfigurationFile](https://www.plotprojects.com/documentation#ConfigurationFile)
 
 ```
 {
@@ -43,10 +43,6 @@ _public static GetInstance(Foundation.NSDictionary launchOptions,System.Boolean 
 
 Gets the Plot interface.
 
-_public static void HandleNotification(UIKit.UILocalNotification localNotification)_ **iOS only**
-
-Forwards the notification to the Plot library. Required to ensure the notification statictics are updated.
-
 _public static void PlotProjects.Plugin.Plot.MailDebugLog_
 
 Mails the debug log. Only works when, on Android the debug meta-data property of the PlotService is set to true, or on
@@ -71,9 +67,9 @@ Gets the current version number of the Plot library backing this plugin.
 
 
 ### More information ###
-Website: [http://www.plotprojects.com/](http://www.plotprojects.com/)
+Website: [https://www.plotprojects.com/](https://www.plotprojects.com/)
 
-Documentation: [http://www.plotprojects.com/documentation](http://www.plotprojects.com/documentation)
+Documentation: [https://www.plotprojects.com/documentation](https://www.plotprojects.com/documentation)
 
 ### License ###
-The source files included in the repository are released under the Apache License, Version 2.0. The Plot Projects library is available under its own [Terms and conditions](http://www.plotprojects.com/terms-and-conditions/).
+The source files included in the repository are released under the Apache License, Version 2.0. The Plot Projects library is available under its own [terms and conditions](https://www.plotprojects.com/terms-and-conditions/).

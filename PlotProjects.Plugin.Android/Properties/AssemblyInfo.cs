@@ -10,7 +10,7 @@ using Android.App;
 [assembly: AssemblyConfiguration ("")]
 [assembly: AssemblyCompany ("Floating Market B.V.")]
 [assembly: AssemblyProduct ("PlotProjects.Plugin")]
-[assembly: AssemblyCopyright ("Floating Market B.V. 2016")]
+[assembly: AssemblyCopyright ("Floating Market B.V. 2018")]
 [assembly: AssemblyTrademark ("")]
 [assembly: AssemblyCulture ("")]
 

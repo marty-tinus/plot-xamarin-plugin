@@ -8,3 +8,4 @@ PlotProjectsExample-Android/packages/
 PlotProjectsExample-iOS/packages/
 *.xam
 packages/
+.vs/

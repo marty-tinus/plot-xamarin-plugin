@@ -92,16 +92,6 @@ namespace PlotProjects.Plugin
 			return instance;
 		}
 
-		/// <summary>
-		/// Forwards the notification to the Plot library.
-		/// </summary>
-		/// <param name="localNotification">localNotification object</param>
-		public static void HandleNotification(UIKit.UILocalNotification localNotification)
-		{
-			PlotImplementation instance = (PlotImplementation) GetInstance ();
-			instance.HandleNotification (localNotification);
-		}
-
 		public static void MailDebugLog(UIKit.UIViewController viewController)
 		{
 			PlotImplementation instance = (PlotImplementation) GetInstance ();

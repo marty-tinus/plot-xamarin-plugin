@@ -3,8 +3,8 @@ using PlotProjects.Plugin.Abstractions;
 
 namespace PlotProjects.Plugin
 {
-	internal class PlotImplementation : IPlot
-	{
+	internal class PlotImplementation : PlotDelegate, IPlot
+    {
 		public PlotImplementation ()
 		{
 		}
@@ -12,18 +12,9 @@ namespace PlotProjects.Plugin
 		public void InitWithLaunchOptions (Foundation.NSDictionary launchOptions)
 		{
 			if (Release) {
-				PlotRelease.InitializeWithLaunchOptionsAndDelegate (launchOptions, null);
+				PlotRelease.InitializeWithLaunchOptions(launchOptions, this);
 			} else {
-				PlotDebug.InitializeWithLaunchOptionsAndDelegate (launchOptions, null);
-			}
-		}
-
-		public void HandleNotification(UIKit.UILocalNotification localNotification)
-		{
-			if (Release) {
-				PlotRelease.HandleNotification (localNotification);
-			} else {
-				PlotDebug.HandleNotification (localNotification);
+				PlotDebug.InitializeWithLaunchOptions(launchOptions, this);
 			}
 		}
 
@@ -59,12 +50,14 @@ namespace PlotProjects.Plugin
 		public String Version {
 			get {
 				if (Release) {
-					return PlotRelease.Version ();
+					return PlotRelease.Version;
 				} else {
-					return PlotDebug.Version ();
+					return PlotDebug.Version;
 				}
 			}
 		}
+
+
 	}
 }
 
