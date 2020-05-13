@@ -1,4 +1,4 @@
-Plot Xamarin Plugin
+﻿Plot Xamarin Plugin
 ===================
 Add location based notifications to your Xamarin project easily.
 
@@ -8,9 +8,12 @@ This plugins supports both IOS 10 or newer, and Android 2.3 or newer.
 
 Tested under Xamarin Studio 6.1.1.
 
+
 ### Integration and configuration ###
 
-You can find the integration guide at our website: [https://www.plotprojects.com/documentation/#xamarin-integration](https://www.plotprojects.com/documentation/#xamarin-integration)
+You can find the full integration guide at our website:
+
+:book: [Full Integration Guide](https://files.plotprojects.com/documentation/#xamarin-integration):book: [Quick Integration Guide](https://www.plotprojects.com/quick-install#xamarin)
 
 Additional settings are possible using the configuration file, an example is shown below. The publicToken and enableOnFirstRun fields are required, the notificationSmallIcon, notificationAccentColor and askPermissionAgainAfterDays options are Android only, the maxRegionsMonitored is an iOS only setting.
 
